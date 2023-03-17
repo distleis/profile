@@ -1,0 +1,163 @@
+img {width: 100px;}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #ffc8dd;
+  font-family: arial;
+  color: #001219;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+button {
+  background-color: #f8edeb;
+  font-family: arial;
+  color: #1d3557;
+  font-size: 10px;
+  line-height: 1.6;
+  border: #001524;
+  width: 100px;
+  height:auto;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: #1d3557;
+  color: #ffffff;
+}
+
+class_container {
+  background: #ffffff;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+div {
+  border: 1px solid #000000;
+}
+/* or */
+.Align {
+  border-top: 1px solid #000000;
+  border-right: 2px solid black;
+  border-bottom: 1px solid #000000;
+  border-left: 2px solid black;
+  background: #cdb4db;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h1
+{
+  border-top: 1px solid #000000;
+  border-right: 2px solid black;
+  border-bottom: 1px solid #000000;
+  border-left: 2px solid black;
+  background: #cdb4db;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h2
+{
+  border-top: 1px solid #000000;
+  border-right: 2px solid black;
+  border-bottom: 1px solid #000000;
+  border-left: 2px solid black;
+  background: #cdb4db;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h3
+{
+  border-top: 1px solid #000000;
+  border-right: 2px solid black;
+  border-bottom: 1px solid #000000;
+  border-left: 2px solid black;
+  background: #cdb4db;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+p
+{
+  border-top: 1px solid #000000;
+  border-right: 2px solid black;
+  border-bottom: 1px solid #000000;
+  border-left: 2px solid black;
+  background: #cdb4db;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button
+{
+  margin-top: 20px;
+}
